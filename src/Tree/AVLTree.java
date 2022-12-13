@@ -64,6 +64,9 @@ public class AVLTree<AnyType extends Comparable<? super AnyType>> {
         return balance(t);
     }
 
+    private AvlNode findMin(AvlNode<AnyType> right) {
+    }
+
     private static class AvlNode<AnyType>{
         AnyType element;
         AvlNode<AnyType> left;
